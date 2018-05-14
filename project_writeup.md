@@ -14,9 +14,9 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 [image1]: ./figures/center_1.jpg "Center Camera"
 [image2]: ./figures/left_1.jpg "Left Camera"
-[image3]: ./figures/recovery1.jpg "Recovery Image"
-[image4]: ./figures/recovery2.jpg "Recovery Image"
-[image5]: ./figures/recovery3.jpg "Recovery Image"
+[image3]: ./figures/recovery1.JPG "Recovery Image"
+[image4]: ./figures/recovery2.JPG "Recovery Image"
+[image5]: ./figures/recovery3.JPG "Recovery Image"
 [image6]: ./figures/left_normal.jpg "Normal Image"
 [image7]: ./figures/left_reverse.jpg "Flipped Image"
 [image8]: ./figures/right_1.jpg "Right Camera"
@@ -33,7 +33,7 @@ My project includes the following files:
 * model.py containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
 * model.h5 containing a trained convolution neural network 
-* project_writeup.md (this report) summarizing the results
+* project_report.md (this report) summarizing the results
 * run1.mp4 contains video of navigating track 1
 * run2.mp4 contains video of navigating track 2
 
@@ -116,9 +116,10 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 ![alt text][image1]
 
-And Left and Right cameras;
+Additionally, Left and Right cameras;
+
 ![alt text][image2]
-![alt text][image3]
+![alt text][image8]
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to the behaviour of removing itself from the off-road, and onto the road. These images show what a recovery looks like starting from off-road, and leading to on-road :
 
